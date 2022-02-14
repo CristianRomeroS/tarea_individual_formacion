@@ -29,6 +29,7 @@ public class Alumno implements Serializable{
 	
 	@Column(nullable=false,unique=true)
 	private String email;
+	private String dni;
 	private int telefono;
 	private int codigoPostal;
 	private String direccion;
@@ -39,6 +40,17 @@ public class Alumno implements Serializable{
 	private Comunidad comunidad;
 	
 	
+	
+	public String getDni() {
+		return dni;
+	}
+
+
+	public void setDni(String dni) {
+		this.dni = dni;
+	}
+
+
 	public long getId() {
 		return id;
 	}

@@ -88,6 +88,7 @@ public class AlumnoController {
 		try {
 			alumnoActual.setNombre(alumno.getNombre());
 			alumnoActual.setApellido(alumno.getApellido());
+			alumnoActual.setDni(alumno.getDni());
 			alumnoActual.setEmail(alumno.getEmail());
 			alumnoActual.setTelefono(alumno.getTelefono());
 			alumnoActual.setCodigoPostal(alumno.getCodigoPostal());
